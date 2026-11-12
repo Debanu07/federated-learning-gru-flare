@@ -1,0 +1,29 @@
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Datasets and generated results
+*.csv
+*.parquet
+evaluation_results/
+gru_vibration_results/
+federated-gru/data/
+
+# Model files and checkpoints
+*.keras
+*.h5
+*.npy
+*.weights
+*.pt
+*.pth
+*.onnx
+
+# Logs and temporary files
+*.log
+logs/
+runs/
+.ipynb_checkpoints/
+.DS_Store
